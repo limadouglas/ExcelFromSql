@@ -1,0 +1,9 @@
+insert into tabela1 (nome, idade, sexo) values ('douglas', '20', 'm');
+insert into tabela1 (nome, idade, sexo) values ('henrique', '21', 'm');
+insert into tabela1 (nome, idade, sexo) values ('bruna', '19', 'f');
+insert into tabela1 (nome, idade, sexo) values ('douglas', '20', 'm');
+insert into tabela1 (nome, idade, sexo) values ('henrique', '21', 'm');
+insert into tabela1 (nome, idade, sexo) values ('bruna', '19', 'f');
+insert into tabela1 (nome, idade, sexo) values ('douglas', '20', 'm');
+insert into tabela1 (nome, idade, sexo) values ('henrique', '21', 'm');
+insert into tabela1 (nome, idade, sexo) values ('bruna', '19', 'f');

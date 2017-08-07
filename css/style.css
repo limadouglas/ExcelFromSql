@@ -1,0 +1,50 @@
+    .body {
+        background: #0000ff;
+    }
+    
+    .cabecalho {
+        background: #455A64;
+    }
+    
+    .centro {
+        margin: 3% auto 3% auto;
+    }
+    
+    .centralizar {
+        display: flex;
+        justify-content: center;
+        margin: 3% 1% 0 0;
+    }
+    
+    #edtTabela {
+        width: 15%;
+    }
+    
+    #converter {
+        height: 60px;
+        font-size: 28px;
+    }
+    
+    .form-group input[type="checkbox"] {
+        display: none;
+    }
+    
+    .form-group input[type="checkbox"]+.btn-group>label span {
+        width: 20px;
+    }
+    
+    .form-group input[type="checkbox"]+.btn-group>label span:first-child {
+        display: none;
+    }
+    
+    .form-group input[type="checkbox"]+.btn-group>label span:last-child {
+        display: inline-block;
+    }
+    
+    .form-group input[type="checkbox"]:checked+.btn-group>label span:first-child {
+        display: inline-block;
+    }
+    
+    .form-group input[type="checkbox"]:checked+.btn-group>label span:last-child {
+        display: none;
+    }
