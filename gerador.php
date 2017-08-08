@@ -37,7 +37,7 @@
 
         $objPhpExcel = PHPExcel_IOFactory::load($inputFileName);    // instanciando arquivo com a lib PHPExcel.
 
-        // descobrindo total de colunas
+        // descobrindo total de colunas.
         $colunas = $objPhpExcel->setActiveSheetIndex(0)->getHighestColumn();
         $total_colunas = PHPExcel_Cell::columnIndexFromString($colunas);
 
