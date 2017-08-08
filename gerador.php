@@ -57,7 +57,7 @@
         for($linha=2; $linha <= $total_linhas; $linha++, $valores = array()) {
 
             for($coluna=0; $coluna < $total_colunas; $coluna++) {
-                if($trtEspaco){
+                if($trtEspaco){     // tratamento de espaços no inicio e no final da string.
                     $valores[$coluna] = trim(addslashes(utf8_decode($objPhpExcel->getActiveSheet()->getCellByColumnAndRow($coluna, $linha)->getValue())));  // pegando valor convertendo para utf8 e removendo espaços no inicio e no fim da string.
                 }else{
                     $valores[$coluna] = addslashes(utf8_decode($objPhpExcel->getActiveSheet()->getCellByColumnAndRow($coluna, $linha)->getValue()));
