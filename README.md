@@ -1,11 +1,11 @@
 # Excel para SQL
-## Conversor de tabelas do excel no formato xls ou xlsx para insert em sql
+## Conversor de tabelas do excel no formato ``.xls`` ou ``.xlsx`` para insert em SQL
 
 ### A biblioteca utilizado é a [PHPExcel](https://github.com/PHPOffice/PHPExcel)
 ### Requisitos:
 > Servidor PHP.
 
-> alterar as configurações do ``php.ini`` caso o arquivo seja muito grande. Os valores abaixo podem variar de acordo com o peso do arquivo a ser convertido.
+> alterar as configurações do ``php.ini`` caso o arquivo seja superior a 2MB. Os valores abaixo podem variar de acordo com o peso do arquivo a ser convertido.
 ```sh
 upload_max_filesize  128M  
 post_max_size        128M  
