@@ -1,4 +1,4 @@
-# ExcelFromSql
+# Excel para SQL
 ## Conversor de tabelas do excel no formato xls ou xlsx para insert em sql
 
 ### A biblioteca utilizado é a [PHPExcel](https://github.com/PHPOffice/PHPExcel)
